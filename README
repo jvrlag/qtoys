@@ -1,0 +1,33 @@
+Quantum Toys
+
+Hi, this github repository contains a tutorial on building your own
+simulation of a quantum computer right on your PC. So, I will assume
+from now on that you are curious about that! :) It was designed and
+written by Javier Rodríguez-Laguna (UNED, Spain), specially for a
+seminar at the Computer Science School, UCM, Madrid.
+
+First, download and read the PDF document, tutorial.pdf.
+
+Second, download and compile the accompanying code. You will need to
+have a Linux box (or to be smart enough to tweak around it). Also, you
+will need some basic libraries, like BLAS, LAPACK, Xlib and Imlib for
+optimal performance. For example, in Ubuntu, you should do
+
+sudo apt-get install libblas-dev libblas3 liblapack-dev liblapack3 libX11-dev libImlib2-dev
+
+make xqview
+
+./xqview
+
+Then, relax and enjoy.
+
+Have fun!
+
+
+March 30, 2016
+
+Javier Rodríguez-Laguna
+
+
+
+
